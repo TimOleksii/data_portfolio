@@ -37,6 +37,3 @@ All tasks are built on top of a single table: `transactions`, which simulates pu
 | `ranking_abs_sum_by_employee.sql`        | Rank employees by total transaction sum (absolute)              |
 | `running_balance.sql`                    | Use cumulative sum (`SUM() OVER`) to compute running balance    |
 | `sliding_avg_transaction_total.sql`      | Use windowed `AVG()` over date ranges to smooth transaction sums|
-
-
-

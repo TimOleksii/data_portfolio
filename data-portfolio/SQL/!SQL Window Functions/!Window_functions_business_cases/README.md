@@ -43,7 +43,4 @@ Used in retail and banking analysis with MCC codes:
 - `SUM() OVER`, `COUNT() OVER`, and cumulative windows
 - `PARTITION BY` and `ORDER BY` clauses in analytical queries
 
----
-
-##  Folder Structure
 
