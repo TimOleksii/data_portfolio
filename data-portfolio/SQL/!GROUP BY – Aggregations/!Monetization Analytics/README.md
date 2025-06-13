@@ -36,4 +36,4 @@ Robert asked to calculate and explore the following:
 
 - All tasks in this folder are part of a **realistic simulation of an entry-level data analyst role**.
 - The full database schema is available in the root of the SQL directory:  
-  📄 [`SQL/TABLES.md`](../../TABLES.md)
+    [`SQL/TABLES.md`](../../TABLES.md)

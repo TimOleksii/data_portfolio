@@ -1,16 +1,16 @@
-# 🏥 Pharmacy Database
+#  Pharmacy Database
 
 This document describes the structure of the **Pharmacy ** database, which contains information on sales, pharmacies, employees, and bonus transactions.
 
 ---
 
-## 📊 Entity Relationship Diagram
+##  Entity Relationship Diagram
 
-![Apteka ER Diagram](../img/apteka_schema.png)
+![Apteka ER Diagram](../img/pharmacy_schema.png)
 
 ---
 
-## 💳 Bonus Transactions
+##  Bonus Transactions
 
 ### `bonuscheques`
 
@@ -27,11 +27,11 @@ Tracks bonus system usage per transaction.
 | `summ_with_disc` | Amount with discounts and applied bonuses                                   |
 | `doc_id`         | Document ID                                                                 |
 
-> ⚠️ If the terminal was offline, the `card` will contain an encrypted string and **cannot be decrypted** to retrieve the real card number.
+>  If the terminal was offline, the `card` will contain an encrypted string and **cannot be decrypted** to retrieve the real card number.
 
 ---
 
-## 🧑‍💼 Employees
+##  Employees
 
 ### `employee`
 
@@ -42,7 +42,7 @@ Tracks bonus system usage per transaction.
 
 ---
 
-## 🏪 Pharmacies
+##  Pharmacies
 
 ### `shops`
 
@@ -53,7 +53,7 @@ Tracks bonus system usage per transaction.
 
 ---
 
-## 🧾 Sales
+##  Sales
 
 ### `sales`
 
@@ -83,7 +83,7 @@ Each row describes **one item** in a receipt.
 | `DR_Pos`      | Item position in receipt                                         |
 | `DR_VZak`     | Purchase type (1 = regular, 2 = online order)                    |
 
-### 📝 Notes:
+###  Notes:
 
 - One receipt may span **multiple rows** — each row is one item.
 - To uniquely identify a receipt, use the combination: `DR_apt + DR_NChk + DR_Dat`
@@ -91,6 +91,6 @@ Each row describes **one item** in a receipt.
 
 ---
 
-> 🔗 For the overview of all databases used in the project, see [DATABASES_OVERVIEW.md](../DATABASES_OVERVIEW.md)
+>  For the overview of all databases used in the project, see [DATABASES_OVERVIEW.md](../DATABASES_OVERVIEW.md)
 
-> 🖼️ ER Diagram should be saved as `img/apteka_schema.png`
+>  ER Diagram should be saved as `img/pharmacy_schema.png`

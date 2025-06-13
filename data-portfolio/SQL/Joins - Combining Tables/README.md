@@ -1,14 +1,14 @@
-# 🔗 Joins – Combining Tables
+#  Joins – Combining Tables
 
 This folder contains SQL tasks that practice combining multiple tables using different types of **JOIN operations**, based on real-world data from an educational platform.
 
 ---
 
-## 🧠 Data Source
+##  Data Source
 
 All SQL tasks in this folder are based on:
 
-### 🧩 [Simulative Database](../../databases/Simulative.md)
+###  [Simulative Database](../../databases/Simulative.md)
 
 The Simulative database includes real data from an interactive educational platform and features:
 

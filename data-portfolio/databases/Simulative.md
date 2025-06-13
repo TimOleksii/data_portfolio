@@ -1,16 +1,16 @@
-# 🧠 Simulative Database
+#  Simulative Database
 
 This document describes the full structure of the **Simulative** platform database, including users, tasks, companies, language support, tests, transactions, and more.
 
 ---
 
-## 📊 Entity Relationship Diagram
+##  Entity Relationship Diagram
 
-![Simulative ER Diagram] data-portfolio\img.simulative - public.png
+![Simulative ER Diagram](../img/simulative_schema.png)
 
 ---
 
-## 👥 Users Tables
+##  Users Tables
 
 ### `Users`
 
@@ -43,7 +43,7 @@ Tracks the **first user entry per day**.
 
 ---
 
-## 🌐 General Tables
+##  General Tables
 
 ### `Page`
 
@@ -74,7 +74,7 @@ Stores company metadata.
 
 ---
 
-## 🧠 Problem Tables
+##  Problem Tables
 
 ### `Language`
 
@@ -119,7 +119,7 @@ Many-to-many relation: which languages are available for each problem.
 
 ---
 
-## 💻 Code Execution Tables
+##  Code Execution Tables
 
 ### `CodeRun`
 
@@ -150,7 +150,7 @@ When a user submits code for checking.
 
 ---
 
-## 🏢 Corporate Custom Problems
+##  Corporate Custom Problems
 
 ### `ProblemToCompany`
 
@@ -169,7 +169,7 @@ Custom version of problems for corporate clients.
 
 ---
 
-## 🧪 Test System Tables
+##  Test System Tables
 
 ### `Test`
 
@@ -245,7 +245,7 @@ Each row = one user’s answer to one question.
 
 ---
 
-## 💰 Transactions
+##  Transactions
 
 ### `TransactionType`
 
@@ -271,6 +271,6 @@ Every coin movement on the platform.
 
 ---
 
-> 🔗 For the full overview of all databases used in this project, see [DATABASES_OVERVIEW.md](../DATABASES_OVERVIEW.md)
+>  For the full overview of all databases used in this project, see [DATABASES_OVERVIEW.md](../DATABASES_OVERVIEW.md)
 
-> 📂 ER Diagram located in `data-portfolio\img.simulative - public.png`
+>  ER Diagram located in `img/simulative_schema.png`

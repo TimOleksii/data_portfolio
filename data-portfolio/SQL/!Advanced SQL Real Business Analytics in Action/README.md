@@ -1,14 +1,14 @@
-# 💼 Advanced SQL – Real Business Analytics in Action
+#  Advanced SQL – Real Business Analytics in Action
 
 This folder contains advanced SQL tasks and case studies modeled on real-world business scenarios. These tasks involve product sales, co-occurrence analysis, ABC-XYZ classification, and transaction data aggregation.
 
 ---
 
-## 🧾 Data Source
+##  Data Source
 
 All tasks in this folder are based on the following dataset:
 
-### 🏥 [Pharmacy Database](../../databases/Pharmacy.md)
+###  [Pharmacy Database](../../databases/Pharmacy.md)
 
 A transactional database of a retail pharmacy network, which includes:
 
@@ -21,7 +21,7 @@ You can explore its structure and entity relationships in the file above.
 
 ---
 
-## 📄 File Overview
+##  File Overview
 
 | File Name                              | Description                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ You can explore its structure and entity relationships in the file above.
 
 ---
 
-## 📎 Related
+##  Related
 
 - [`Pharmacy.md`](../../databases/Pharmacy.md) – full schema and data description
-- [`DATABASES_OVERVIEW.md`](../../DATABAS)_]()
+- [`DATABASES_OVERVIEW.md`](../../DATABASES_OVERVIEW.md)

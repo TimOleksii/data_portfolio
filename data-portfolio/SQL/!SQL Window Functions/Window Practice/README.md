@@ -1,4 +1,4 @@
-# 🪟 Window Functions – Practice Tasks
+#  Window Functions – Practice Tasks
 
 This folder contains focused SQL practice tasks using **window functions** such as `ROW_NUMBER()`, `RANK()`, `LAG()`, `LEAD()`, `SUM() OVER`, and others.
 
@@ -6,7 +6,7 @@ All tasks are built on top of a single table: `transactions`, which simulates pu
 
 ---
 
-## 🗃️ Table Used: `transactions`
+##  File Overview
 
 | Column         | Description                                      |
 |----------------|--------------------------------------------------|
@@ -27,7 +27,7 @@ All tasks are built on top of a single table: `transactions`, which simulates pu
 
 ---
 
-## 📄 File Overview
+##  File Overview
 
 | File Name                                | Description                                                     |
 |------------------------------------------|-----------------------------------------------------------------|
@@ -38,14 +38,5 @@ All tasks are built on top of a single table: `transactions`, which simulates pu
 | `running_balance.sql`                    | Use cumulative sum (`SUM() OVER`) to compute running balance    |
 | `sliding_avg_transaction_total.sql`      | Use windowed `AVG()` over date ranges to smooth transaction sums|
 
----
 
-## 🔗 Related Topics
-
-- [Window Functions Guide](https://www.sqltutorial.org/sql-window-functions/)
-- [Analytic Functions Cheat Sheet](https://mode.com/sql-tutorial/sql-window-functions/)
-
----
-
-## 📁 Folder Structure
 

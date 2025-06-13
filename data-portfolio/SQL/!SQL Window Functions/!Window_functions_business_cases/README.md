@@ -1,14 +1,14 @@
-# 🪟 Window Functions – Business Case Scenarios
+#  Window Functions – Business Case Scenarios
 
 This folder contains real-world analytical SQL use cases that leverage **window functions** to solve problems from two different domains: platform analytics and transaction categorization.
 
 ---
 
-## 📚 Data Sources
+##  Data Sources
 
 This folder uses **two databases**, depending on the task:
 
-### 🧠 [Simulative Database](../../databases/Simulative.md)
+###  [Simulative Database](../../databases/Simulative.md)
 
 Used in platform user activity and behavior tasks:
 
@@ -16,7 +16,7 @@ Used in platform user activity and behavior tasks:
 - `cumulative_unique_active_users.sql`
 - `dau_smoothed_time_series.sql`
 
-### 💳 [Merchant Database](../../databases/Merchant.md)
+###  [Merchant Database](../../databases/Merchant.md)
 
 Used in retail and banking analysis with MCC codes:
 
@@ -25,7 +25,7 @@ Used in retail and banking analysis with MCC codes:
 
 ---
 
-## 📄 File Overview
+##  File Overview
 
 | File Name                             | Description                                                   | Database      |
 |--------------------------------------|---------------------------------------------------------------|---------------|
@@ -37,7 +37,7 @@ Used in retail and banking analysis with MCC codes:
 
 ---
 
-## 🧠 Key Techniques
+##  Key Techniques
 
 - `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()` for ranking
 - `SUM() OVER`, `COUNT() OVER`, and cumulative windows
@@ -45,5 +45,5 @@ Used in retail and banking analysis with MCC codes:
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
