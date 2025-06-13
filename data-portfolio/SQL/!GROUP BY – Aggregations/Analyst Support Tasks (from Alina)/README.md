@@ -19,4 +19,4 @@ She needs help writing SQL queries to support her analysis of user activity on t
 All tasks here use the same simulated database as the rest of the course.  
 You can find the full table structure in the root of the `SQL/` directory:
 
- [`SQL/TABLES.md`](../../TABLES.md)
+###  [Simulative Database](../../databases/Simulative.md)

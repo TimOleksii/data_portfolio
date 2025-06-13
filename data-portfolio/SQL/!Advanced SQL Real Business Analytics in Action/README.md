@@ -25,9 +25,9 @@ You can explore its structure and entity relationships in the file above.
 
 | File Name                              | Description                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------|
-| `abc_xyz_analysis.sql`                 | ABC/XYZ classification of products based on revenue stability and volume   |
-| `pharmacy_product_sales_matrix.sql`   | Generates a product × date sales matrix for multivariate trend analysis    |
-| `product_cococurrence_analysis.sql`   | Identifies products frequently bought together in the same receipt         |
+| `!abc_xyz_analysis.sql`                 | ABC/XYZ classification of products based on revenue stability and volume   |
+| `!pharmacy_product_sales_matrix.sql`   | Generates a product × date sales matrix for multivariate trend analysis    |
+| `!product_cococurrence_analysis.sql`   | Identifies products frequently bought together in the same receipt         |
 | `ABC_Analysis.sql`                    | Performs ABC analysis by cumulative contribution to revenue                |
 
 ---

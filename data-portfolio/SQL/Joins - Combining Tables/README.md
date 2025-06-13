@@ -41,5 +41,4 @@ The Simulative database includes real data from an interactive educational platf
 
 ## Related Resources
 
-- `../../databases/Simulative.md` — Full Simulative database schema
-- `../../DATABASES_OVERVIEW.md` — Overview of all databases used in the project
+###  [Simulative Database](../../databases/Simulative.md)
